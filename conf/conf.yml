@@ -1,0 +1,10 @@
+#mongodb 连接配置
+mongodb:
+  host: 192.168.139.135:27017
+  db: beelike
+
+# 日志(出错信息，调试信息)配置路径
+log_config: /Users/lihaoquan/GoProjects/Playground/src/beelike/conf/logger.xml
+
+
+

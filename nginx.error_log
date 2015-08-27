@@ -1,0 +1,142 @@
+2015/08/21 21:32:03 [emerg] 1390#0: bind() to 0.0.0.0:80 failed (13: Permission denied)
+2015/08/27 14:45:24 [emerg] 13122#0: bind() to 0.0.0.0:80 failed (13: Permission denied)
+2015/08/27 14:47:05 [emerg] 13148#0: bind() to 0.0.0.0:80 failed (13: Permission denied)
+2015/08/27 14:47:56 [emerg] 13181#0: bind() to 0.0.0.0:80 failed (13: Permission denied)
+2015/08/27 14:48:14 [notice] 13198#0: using the "kqueue" event method
+2015/08/27 14:48:14 [notice] 13198#0: nginx/1.6.0
+2015/08/27 14:48:14 [notice] 13198#0: built by clang 5.1 (clang-503.0.40) (based on LLVM 3.4svn)
+2015/08/27 14:48:14 [notice] 13198#0: OS: Darwin 14.4.0
+2015/08/27 14:48:14 [notice] 13198#0: hw.ncpu: 4
+2015/08/27 14:48:14 [notice] 13198#0: net.inet.tcp.sendspace: 131072
+2015/08/27 14:48:14 [notice] 13198#0: kern.ipc.somaxconn: 128
+2015/08/27 14:48:14 [notice] 13198#0: getrlimit(RLIMIT_NOFILE): 10240:9223372036854775807
+2015/08/27 14:48:14 [notice] 13199#0: start worker processes
+2015/08/27 14:48:14 [notice] 13199#0: start worker process 13200
+2015/08/27 14:48:22 [notice] 13227#0: using the "kqueue" event method
+2015/08/27 14:48:22 [notice] 13227#0: nginx/1.6.0
+2015/08/27 14:48:22 [notice] 13227#0: built by clang 5.1 (clang-503.0.40) (based on LLVM 3.4svn)
+2015/08/27 14:48:22 [notice] 13227#0: OS: Darwin 14.4.0
+2015/08/27 14:48:22 [notice] 13227#0: hw.ncpu: 4
+2015/08/27 14:48:22 [notice] 13227#0: net.inet.tcp.sendspace: 131072
+2015/08/27 14:48:22 [notice] 13227#0: kern.ipc.somaxconn: 128
+2015/08/27 14:48:22 [notice] 13227#0: getrlimit(RLIMIT_NOFILE): 10240:9223372036854775807
+2015/08/27 14:48:22 [notice] 13228#0: start worker processes
+2015/08/27 14:48:22 [notice] 13228#0: start worker process 13230
+2015/08/27 14:48:34 [notice] 13256#0: using the "kqueue" event method
+2015/08/27 14:48:34 [notice] 13256#0: nginx/1.6.0
+2015/08/27 14:48:34 [notice] 13256#0: built by clang 5.1 (clang-503.0.40) (based on LLVM 3.4svn)
+2015/08/27 14:48:34 [notice] 13256#0: OS: Darwin 14.4.0
+2015/08/27 14:48:34 [notice] 13256#0: hw.ncpu: 4
+2015/08/27 14:48:34 [notice] 13256#0: net.inet.tcp.sendspace: 131072
+2015/08/27 14:48:34 [notice] 13256#0: kern.ipc.somaxconn: 128
+2015/08/27 14:48:34 [notice] 13256#0: getrlimit(RLIMIT_NOFILE): 10240:9223372036854775807
+2015/08/27 14:48:34 [notice] 13257#0: start worker processes
+2015/08/27 14:48:34 [notice] 13257#0: start worker process 13259
+2015/08/27 14:48:44 [notice] 13280#0: using the "kqueue" event method
+2015/08/27 14:48:44 [notice] 13280#0: nginx/1.6.0
+2015/08/27 14:48:44 [notice] 13280#0: built by clang 5.1 (clang-503.0.40) (based on LLVM 3.4svn)
+2015/08/27 14:48:44 [notice] 13280#0: OS: Darwin 14.4.0
+2015/08/27 14:48:44 [notice] 13280#0: hw.ncpu: 4
+2015/08/27 14:48:44 [notice] 13280#0: net.inet.tcp.sendspace: 131072
+2015/08/27 14:48:44 [notice] 13280#0: kern.ipc.somaxconn: 128
+2015/08/27 14:48:44 [notice] 13280#0: getrlimit(RLIMIT_NOFILE): 10240:9223372036854775807
+2015/08/27 14:48:44 [notice] 13281#0: start worker processes
+2015/08/27 14:48:44 [notice] 13281#0: start worker process 13282
+2015/08/27 14:50:32 [info] 13282#0: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/08/27 15:39:20 [error] 13282#0: *4 kevent() reported that connect() failed (61: Connection refused) while connecting to upstream, client: 127.0.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8080/", host: "localhost"
+2015/08/27 15:39:21 [error] 13282#0: *4 kevent() reported that connect() failed (61: Connection refused) while connecting to upstream, client: 127.0.0.1, server: 127.0.0.1, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:8080/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2015/08/27 15:39:22 [error] 13282#0: *4 kevent() reported that connect() failed (61: Connection refused) while connecting to upstream, client: 127.0.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8080/", host: "localhost"
+2015/08/27 15:39:23 [error] 13282#0: *4 kevent() reported that connect() failed (61: Connection refused) while connecting to upstream, client: 127.0.0.1, server: 127.0.0.1, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:8080/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2015/08/27 15:39:31 [info] 13282#0: *5 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/08/27 15:39:41 [info] 13282#0: *8 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/08/27 15:39:41 [info] 13282#0: *9 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/08/27 15:40:35 [error] 13282#0: *4 kevent() reported that connect() failed (61: Connection refused) while connecting to upstream, client: 127.0.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8080/", host: "localhost"
+2015/08/27 15:40:35 [error] 13282#0: *4 kevent() reported that connect() failed (61: Connection refused) while connecting to upstream, client: 127.0.0.1, server: 127.0.0.1, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:8080/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2015/08/27 15:40:37 [error] 13282#0: *4 kevent() reported that connect() failed (61: Connection refused) while connecting to upstream, client: 127.0.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8080/", host: "localhost"
+2015/08/27 15:40:37 [error] 13282#0: *4 kevent() reported that connect() failed (61: Connection refused) while connecting to upstream, client: 127.0.0.1, server: 127.0.0.1, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:8080/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2015/08/27 15:40:51 [info] 13282#0: *12 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/08/27 15:40:51 [info] 13282#0: *13 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/08/27 15:41:11 [notice] 18049#0: using the "kqueue" event method
+2015/08/27 15:41:11 [notice] 18049#0: nginx/1.6.0
+2015/08/27 15:41:11 [notice] 18049#0: built by clang 5.1 (clang-503.0.40) (based on LLVM 3.4svn)
+2015/08/27 15:41:11 [notice] 18049#0: OS: Darwin 14.4.0
+2015/08/27 15:41:11 [notice] 18049#0: hw.ncpu: 4
+2015/08/27 15:41:11 [notice] 18049#0: net.inet.tcp.sendspace: 131072
+2015/08/27 15:41:11 [notice] 18049#0: kern.ipc.somaxconn: 128
+2015/08/27 15:41:11 [notice] 18049#0: getrlimit(RLIMIT_NOFILE): 10240:9223372036854775807
+2015/08/27 15:41:11 [notice] 18050#0: start worker processes
+2015/08/27 15:41:11 [notice] 18050#0: start worker process 18052
+2015/08/27 15:42:54 [notice] 18238#0: using the "kqueue" event method
+2015/08/27 15:42:54 [notice] 18238#0: nginx/1.6.0
+2015/08/27 15:42:54 [notice] 18238#0: built by clang 5.1 (clang-503.0.40) (based on LLVM 3.4svn)
+2015/08/27 15:42:54 [notice] 18238#0: OS: Darwin 14.4.0
+2015/08/27 15:42:54 [notice] 18238#0: hw.ncpu: 4
+2015/08/27 15:42:54 [notice] 18238#0: net.inet.tcp.sendspace: 131072
+2015/08/27 15:42:54 [notice] 18238#0: kern.ipc.somaxconn: 128
+2015/08/27 15:42:54 [notice] 18238#0: getrlimit(RLIMIT_NOFILE): 256:9223372036854775807
+2015/08/27 15:42:54 [notice] 18240#0: start worker processes
+2015/08/27 15:42:54 [notice] 18240#0: start worker process 18241
+2015/08/27 15:43:35 [error] 18241#0: *1 kevent() reported that connect() failed (61: Connection refused) while connecting to upstream, client: 127.0.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8080/", host: "localhost"
+2015/08/27 15:43:35 [error] 18241#0: *1 kevent() reported that connect() failed (61: Connection refused) while connecting to upstream, client: 127.0.0.1, server: 127.0.0.1, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:8080/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2015/08/27 15:43:37 [error] 18241#0: *1 kevent() reported that connect() failed (61: Connection refused) while connecting to upstream, client: 127.0.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8080/", host: "localhost"
+2015/08/27 15:43:37 [error] 18241#0: *1 kevent() reported that connect() failed (61: Connection refused) while connecting to upstream, client: 127.0.0.1, server: 127.0.0.1, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:8080/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2015/08/27 15:43:39 [error] 18241#0: *1 kevent() reported that connect() failed (61: Connection refused) while connecting to upstream, client: 127.0.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8080/", host: "localhost"
+2015/08/27 15:43:39 [error] 18241#0: *1 kevent() reported that connect() failed (61: Connection refused) while connecting to upstream, client: 127.0.0.1, server: 127.0.0.1, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:8080/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2015/08/27 15:43:51 [info] 18241#0: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/08/27 15:43:51 [info] 18241#0: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/08/27 15:44:56 [error] 18241#0: *1 kevent() reported that connect() failed (61: Connection refused) while connecting to upstream, client: 127.0.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8080/", host: "localhost"
+2015/08/27 15:44:56 [error] 18241#0: *1 kevent() reported that connect() failed (61: Connection refused) while connecting to upstream, client: 127.0.0.1, server: 127.0.0.1, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:8080/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2015/08/27 15:44:58 [error] 18241#0: *1 kevent() reported that connect() failed (61: Connection refused) while connecting to upstream, client: 127.0.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8080/", host: "localhost"
+2015/08/27 15:44:58 [error] 18241#0: *1 kevent() reported that connect() failed (61: Connection refused) while connecting to upstream, client: 127.0.0.1, server: 127.0.0.1, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:8080/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2015/08/27 15:45:01 [info] 18241#0: *10 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/08/27 15:45:01 [info] 18241#0: *11 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/08/27 15:45:23 [error] 18241#0: *1 kevent() reported that connect() failed (61: Connection refused) while connecting to upstream, client: 127.0.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8080/", host: "localhost"
+2015/08/27 15:45:23 [error] 18241#0: *1 kevent() reported that connect() failed (61: Connection refused) while connecting to upstream, client: 127.0.0.1, server: 127.0.0.1, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:8080/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2015/08/27 15:45:25 [error] 18241#0: *1 kevent() reported that connect() failed (61: Connection refused) while connecting to upstream, client: 127.0.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8080/", host: "localhost"
+2015/08/27 15:45:25 [error] 18241#0: *1 kevent() reported that connect() failed (61: Connection refused) while connecting to upstream, client: 127.0.0.1, server: 127.0.0.1, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:8080/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2015/08/27 15:45:39 [notice] 18506#0: using the "kqueue" event method
+2015/08/27 15:45:39 [notice] 18506#0: nginx/1.6.0
+2015/08/27 15:45:39 [notice] 18506#0: built by clang 5.1 (clang-503.0.40) (based on LLVM 3.4svn)
+2015/08/27 15:45:39 [notice] 18506#0: OS: Darwin 14.4.0
+2015/08/27 15:45:39 [notice] 18506#0: hw.ncpu: 4
+2015/08/27 15:45:39 [notice] 18506#0: net.inet.tcp.sendspace: 131072
+2015/08/27 15:45:39 [notice] 18506#0: kern.ipc.somaxconn: 128
+2015/08/27 15:45:39 [notice] 18506#0: getrlimit(RLIMIT_NOFILE): 10240:9223372036854775807
+2015/08/27 15:45:39 [notice] 18508#0: start worker processes
+2015/08/27 15:45:39 [notice] 18508#0: start worker process 18509
+2015/08/27 15:45:46 [error] 18509#0: *1 kevent() reported that connect() failed (61: Connection refused) while connecting to upstream, client: 127.0.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8080/", host: "localhost"
+2015/08/27 15:45:46 [error] 18509#0: *1 kevent() reported that connect() failed (61: Connection refused) while connecting to upstream, client: 127.0.0.1, server: 127.0.0.1, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:8080/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2015/08/27 15:45:48 [error] 18509#0: *1 kevent() reported that connect() failed (61: Connection refused) while connecting to upstream, client: 127.0.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8080/", host: "localhost"
+2015/08/27 15:45:48 [error] 18509#0: *1 kevent() reported that connect() failed (61: Connection refused) while connecting to upstream, client: 127.0.0.1, server: 127.0.0.1, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:8080/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2015/08/27 15:46:01 [info] 18509#0: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/08/27 15:46:36 [notice] 18596#0: using the "kqueue" event method
+2015/08/27 15:46:36 [notice] 18596#0: nginx/1.6.0
+2015/08/27 15:46:36 [notice] 18596#0: built by clang 5.1 (clang-503.0.40) (based on LLVM 3.4svn)
+2015/08/27 15:46:36 [notice] 18596#0: OS: Darwin 14.4.0
+2015/08/27 15:46:36 [notice] 18596#0: hw.ncpu: 4
+2015/08/27 15:46:36 [notice] 18596#0: net.inet.tcp.sendspace: 131072
+2015/08/27 15:46:36 [notice] 18596#0: kern.ipc.somaxconn: 128
+2015/08/27 15:46:36 [notice] 18596#0: getrlimit(RLIMIT_NOFILE): 10240:9223372036854775807
+2015/08/27 15:46:36 [notice] 18597#0: start worker processes
+2015/08/27 15:46:36 [notice] 18597#0: start worker process 18599
+2015/08/27 15:46:44 [error] 18599#0: *1 kevent() reported that connect() failed (61: Connection refused) while connecting to upstream, client: 127.0.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8080/", host: "localhost"
+2015/08/27 15:46:44 [error] 18599#0: *1 kevent() reported that connect() failed (61: Connection refused) while connecting to upstream, client: 127.0.0.1, server: 127.0.0.1, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:8080/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2015/08/27 15:46:46 [error] 18599#0: *1 kevent() reported that connect() failed (61: Connection refused) while connecting to upstream, client: 127.0.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8080/", host: "localhost"
+2015/08/27 15:46:47 [error] 18599#0: *1 kevent() reported that connect() failed (61: Connection refused) while connecting to upstream, client: 127.0.0.1, server: 127.0.0.1, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:8080/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2015/08/27 15:46:50 [error] 18599#0: *1 kevent() reported that connect() failed (61: Connection refused) while connecting to upstream, client: 127.0.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8080/", host: "localhost"
+2015/08/27 15:46:50 [error] 18599#0: *1 kevent() reported that connect() failed (61: Connection refused) while connecting to upstream, client: 127.0.0.1, server: 127.0.0.1, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:8080/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2015/08/27 15:47:01 [info] 18599#0: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/08/27 16:06:52 [notice] 20080#0: using the "kqueue" event method
+2015/08/27 16:06:52 [notice] 20080#0: nginx/1.6.0
+2015/08/27 16:06:52 [notice] 20080#0: built by clang 5.1 (clang-503.0.40) (based on LLVM 3.4svn)
+2015/08/27 16:06:52 [notice] 20080#0: OS: Darwin 14.4.0
+2015/08/27 16:06:52 [notice] 20080#0: hw.ncpu: 4
+2015/08/27 16:06:52 [notice] 20080#0: net.inet.tcp.sendspace: 131072
+2015/08/27 16:06:52 [notice] 20080#0: kern.ipc.somaxconn: 128
+2015/08/27 16:06:52 [notice] 20080#0: getrlimit(RLIMIT_NOFILE): 10240:9223372036854775807
+2015/08/27 16:06:52 [notice] 20081#0: start worker processes
+2015/08/27 16:06:52 [notice] 20081#0: start worker process 20082
+2015/08/27 17:42:40 [info] 20082#0: *19 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/08/27 17:42:40 [info] 20082#0: *20 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/08/27 17:42:40 [info] 20082#0: *21 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/08/27 17:42:50 [info] 20082#0: *23 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
